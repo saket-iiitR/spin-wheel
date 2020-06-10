@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: #2ecc71;
+  background-image: linear-gradient(to top left, #2980b9, #16a085, #2ecc71);
+  position: relative;
+  text-align: center;
+  overflow-y: hidden;
+}
+snake {
+  display: none;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+snake:focus {
+  outline: none;
+}
+header {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 10px;
+  padding: 20px 10px;
+  color: white;
+}
+
+.start {
+  background: rgba(256, 256, 256, 1);
+  padding: 40px 50px;
+  width: 240px;
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.start span {
+  color: #16a085;
+  border: 1px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.start span:hover {
+  background: #16a085;
+  color: white;
+}
+
+footer {
+  padding: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#menu header {
+  -webkit-animation: logo-ani 1000ms linear infinite;
+  animation: logo-ani 1000ms linear infinite;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px #000000;
+}
+
+.skill_row {
+  width: 60%;
+  line-height: 2;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  
+}
+
+.hello {
+  text-shadow: 1px 1px #F53B3B;
+}
+
+@-webkit-keyframes logo-ani {
+  50% {
+    -webkit-transform: scale(1.3, 1.3);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	
+	background-color:#0964ee;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonX {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#913333;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButtonX:hover {
+	
+	background-color:#ff0707;
+}
+.myButtonX:active {
+	position:relative;
+	top:1px;
+}
+
+#favDialog {
+  text-align: left;
+  padding: 4rem;
+  border-style: solid;
+  border-width: thick;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: goldenrod;
+  font-weight: bold;
+}
+
+
+
+
+
